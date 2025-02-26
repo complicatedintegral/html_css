@@ -1,0 +1,132 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Atkinson Hyperlegible Next', sans-serif;
+  color: black;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: darkblue;
+}
+
+.wrapper{
+  background: lightblue;
+  width: 350px;
+  padding: 30px;
+  border-radius: 35px;
+}
+
+.wrapper header{
+  font-size: 28px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.wrapper form{
+  margin: 15px 0 15px 0;
+}
+
+form:where(input, select, button){
+  width: 100%;
+  outline: none;
+  border: none;
+}
+form p{
+  font-size: 15px;
+  margin-bottom: 5px;
+}
+
+form input{
+  border: 1px;
+  padding: 0 15px;
+  font-size: 15px;
+  height: 40px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  background-color: whitesmoke;
+}
+
+form .drop-list{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.drop-list .select-box{
+  display: flex;
+  height: 40px;
+  width: 120px;
+  background: pink;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}
+
+.select-box select{
+  width: auto;
+  margin: 0 -5px 0 5px;
+}
+
+.select-box img{
+  max-width: 25px;
+}
+
+.drop-list .icon{
+  cursor: pointer;
+  font-size: 20px;
+  margin-top: 15px;
+}
+
+form .exchange-rate{
+  font-size: 15px;
+  margin: 15px 0 15px 0;
+  text-align: center;
+}
+
+form button{
+  height: 40px;
+  background: pink;
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+  width: 100%;
+  margin: 5px 0 5px 0;
+  font-size: 15px;
+}
+
+form button:hover{
+  transform: scale(1.05);
+}
+
+form button:active{
+  opacity: 0.75;
+
+}
+
+.amount{
+  font-size: 15px;
+  margin-top: 15px;
+  text-align: center;
+}
+
+.dark-mode{
+  background: blanchedalmond;
+}
+
+.from{
+  text-align: center;
+}
+
+.to{
+  text-align: center;
+}
+
+.exchange-rate{
+  background: whitesmoke;
+  padding: 5px 0 5px 0;
+}
