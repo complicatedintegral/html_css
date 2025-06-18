@@ -47,4 +47,9 @@ A simple and responsive currency converter web application that allows users to 
 
 - You will need a valid API key from [https://www.exchangerate-api.com](https://www.exchangerate-api.com) to replace the existing key in `script.js` if the current one expires.
 
+## Screenshots
+
+![currencyconverter](https://github.com/user-attachments/assets/d5e12892-a7e4-4647-b333-dcef6de2d748)
+
+
 ## Made using HTML, CSS and JavaScript
